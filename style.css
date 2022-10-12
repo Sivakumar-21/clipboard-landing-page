@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    text-align: center;
+  }
+  .top-logo img{
+    padding-top: 80px;
+  }
+  .top{
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -609px -10em;
+  }
+  .button-1 {
+    padding: 10px 50px;
+    border-radius: 20px;
+    background-color: hsl(171, 66%, 44%);
+
+  }
+  .button-2 {
+    padding: 10px 50px;
+    border-radius: 20px;
+    background-color:  hsl(233, 100%, 69%);
+  }
+  a{
+    color: white;
+  }
+  .top-para-1 {
+    padding: 0 388px;
+    line-height: 30px;
+  }
+  h2 {
+    padding-top: 60px;
+  }
+  .top-para-2 {
+    padding: 0 360px 50px;
+    line-height: 30px;
+  }
+  .computer {
+    display: flex;
+    gap: 159px;
+  }
+  .computer-right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 65px;
+  }
+  .right-content {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .computer-para {
+    padding: 20px 136px 0 0;
+    line-height: 30px;
+  }
+  .center-section-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 94px 0;
+    text-align: center;
+  }
+  .center-section-para {
+    padding: 0 24em;
+    line-height: 30px;
+  }
+  .devices-img {
+    text-align: center;
+  }
+  .center-section-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .container-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 100px;
+  }
+  .content-1 {
+    display: flex;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  .logo-para {
+    padding: 0 33px;
+    line-height: 30px;
+  }
+  .company-logo {
+    display: flex;
+    gap: 140px;
+  }
+  .os{
+    padding: 50px 0;
+  }
+h3,h4,h5{
+    font-size: 20px;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 136px;
+    background-color: hsl(201, 11%, 66%);
+    align-items: center;
+    padding: 50px 0;
+  }
+  .footer-logo img {
+    width: 75%;
+  }
+  .f-1,.f-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .f-logo {
+    display: flex;
+    gap: 20px;
+  }
+  p{
+    color: hsl(201, 11%, 66%);
+  }
+  button{
+    cursor: pointer;
+  }
+  footer span:hover{
+    color: hsl(171, 66%, 44%);
+  }
+@media screen and (max-width: 400px) {
+    .top{
+        background-image: url(images/bg-header-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -15em -2em;
+      }
+      .top-para-1 {
+        padding: 0 30px;
+        line-height: 30px;
+      }
+      .top-para-2 {
+        padding: 0px 34px 50px;
+        line-height: 30px;
+      }
+      .computer-img img{
+        width: 100%;
+        padding: 0 30px;
+      }
+      .computer {
+        display: initial;
+        gap: 159px;
+      }
+      .computer-right-content {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding-top: 65px;
+        text-align: center;
+      }
+      .computer-para {
+        padding: 20px 20px 0 30px;
+        line-height: 30px;
+      }
+      .center-section-para {
+        padding: 0 23px;
+        line-height: 30px;
+      }
+      .devices-img img {
+        width: 95%;
+      }
+      .container-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        justify-content: center;
+        align-content: center;
+        padding: 0;
+      }
+      .content-1 {
+        display: flex;
+        flex-direction: column;
+      }
+      .company-logo {
+        display: flex;
+        gap: 70px;
+        flex-direction: column;
+        align-items: center;
+      }
+      footer {
+        display: flex;
+        margin-top: 136px;
+        background-color: aliceblue;
+        padding: 50px 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+      }
+    
+}
